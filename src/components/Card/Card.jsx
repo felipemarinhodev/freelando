@@ -1,10 +1,13 @@
+import { css } from "@emotion/react"
 import styled from "@emotion/styled"
 
 const DivStyled = styled.div`
-  padding: ${props => props.theme.spaces.l};
-  background: ${props => props.theme.colors.secondary.a};
-  border: 1px solid ${props => props.theme.colors.primary.a};
-  border-radius: ${props => props.theme.spaces.s};
+  ${({ theme }) => css`
+    padding: ${theme.spaces.l};
+    background: ${theme.colors.secondary.a};
+    border: 1px solid ${theme.colors.primary.a};
+    border-radius: ${theme.spaces.s};
+  `}
 `
 
 export const Card = ({ children }) => {
