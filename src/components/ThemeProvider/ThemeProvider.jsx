@@ -5,17 +5,17 @@ const theme = {
     white: '',
     warning: '',
     focus: '',
-    primaries: {
-      a: '',
+    primary: {
+      a: '#5754ED',
       b: '',
       c: ''
     },
     secondary: {
-      a: '',
+      a: '#EBEAF9',
       b: '',
       c: ''
     },
-    neutrals: {
+    neutral: {
       a: '',
       b: '',
       c: '',
@@ -25,6 +25,15 @@ const theme = {
       a: '',
       b: ''
     },
+  },
+  spaces: {
+    xxs: '4px',
+    xs: '8px',
+    s: '16px',
+    m: '24px',
+    l: '32px',
+    xl: '48px',
+    xxl: '64px'
   }
 }
 

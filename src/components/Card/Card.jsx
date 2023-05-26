@@ -1,10 +1,10 @@
 import styled from "@emotion/styled"
 
 const DivStyled = styled.div`
-  padding: 32px;
-  background: #EBEAF9;
-  border: 1px solid #5754ed;
-  border-radius: 16px;
+  padding: ${props => props.theme.spaces.l};
+  background: ${props => props.theme.colors.secondary.a};
+  border: 1px solid ${props => props.theme.colors.primary.a};
+  border-radius: ${props => props.theme.spaces.s};
 `
 
 export const Card = ({ children }) => {
