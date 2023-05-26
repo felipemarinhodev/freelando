@@ -34,7 +34,8 @@ const theme = {
     l: '32px',
     xl: '48px',
     xxl: '64px'
-  }
+  },
+  fontFamily: "'Montserrat', sans-serif"
 }
 
 export const ThemeProvider = ({ children }) => {
