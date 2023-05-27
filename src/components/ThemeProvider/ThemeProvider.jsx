@@ -16,7 +16,7 @@ const theme = {
       c: ''
     },
     neutral: {
-      a: '',
+      a: '#373737',
       b: '',
       c: '',
       d: ''
