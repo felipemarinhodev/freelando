@@ -1,4 +1,5 @@
 import { Card } from "./components/Card/Card";
+import { Footer } from "./components/Footer/Footer";
 import { Styles } from "./components/GlobalStyles/Styles";
 import { Header } from "./components/Header/Header";
 import { TextField } from "./components/TextField/TextField";
@@ -26,6 +27,8 @@ function App() {
 
         <TextField title="Nome completo" />
       </Card>
+
+      <Footer />
     </ThemeProvider>
   );
 }
